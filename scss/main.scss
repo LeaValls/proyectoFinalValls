@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: row;
+    align-items: center;
+
+    .card {
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .card-body {
+        height: 250px;
+    }
+
+    .card-img-top {
+        width: 200px;
+        height: 250px;
+        padding-top: 15px;
+    }
+}
+
+.footer {
+    background-color: bisque;
+    margin: 0;
+    padding: 1px;
+    width: auto;
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .fa-instagram {
+        font-size: 2rem;
+        color: gray;
+
+    }
+
+    .fa-facebook {
+        font-size: 2rem;
+        color: gray;
+    }
+
+    .fa-instagram:hover {
+        color: red;
+        transition: .3s;
+        transform: scale(1.5);
+    }
+
+    .fa-facebook:hover {
+        color: blue;
+        transition: .3s;
+        transform: scale(1.5);
+    }
+}
