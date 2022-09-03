@@ -2,6 +2,23 @@
     display: flex;
     justify-content: space-between;
 }
+.anchocarrusel{
+    width: 100vw;
+    height: 80vw;
+    margin: 10px;
+    padding: 15px;
+}
+.sustentable{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    padding: 40px;
+    margin: 10px;
+    align-items: center;
+    border: 10px;
+    font-family:'Times New Roman', Times, serif;
+
+}
 
 .row {
     justify-content: space-evenly;
@@ -140,4 +157,71 @@
         transition: .3s;
         transform: scale(1.5);
     }
+}
+
+
+@media (min-width: 418px){
+    .joseYsilvia1{
+        height: auto;
+        width: auto;
+    }
+    .joseYsilvia2{
+        height: auto;
+        width: auto;
+    }
+    .nosotras{
+        padding: 0;
+        margin: 0;
+    }
+    .sustentable{
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .mapas{
+        display: flex;
+        flex-direction: column;        
+    }
+
+}
+@media (max-width: 768px){
+    .mapas{
+        display: flex;
+        flex-direction: column;        
+    }
+    .nosotras{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .nosotrasDos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .textoNosotras{
+        text-align: center;
+    }
+   
+}
+@media (min-width: 540px){
+    .nosotras{
+        padding: 15px;
+        margin: 20px;
+    }
+    .mapas{
+        display: flex;
+        flex-direction: column;        
+    }
+
+}
+
+@media (min-width: 1024px){
+    .sustentable{
+        flex-direction: row;
+    }
+
 }
