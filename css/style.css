@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Manjari&display=swap");
+.marketingOlfativo {
+  font-family: 'Manjari', sans-serif;
+  font-style: bold; }
+
 .navbar {
   display: flex;
   justify-content: space-between; }
@@ -48,9 +53,10 @@
     margin: 70px;
     padding: 20px;
     text-align: justify;
-    font-size: 15px;
     align-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    font-size: 15px;
+    font-family: 'Manjari', sans-serif; }
 
 .nosotrasDos {
   margin: 20px;
@@ -64,9 +70,10 @@
     margin: 70px;
     padding: 20px;
     text-align: justify;
-    font-size: 15px;
     align-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Manjari', sans-serif; }
 
 .animate__fadeOut {
   color: gray;

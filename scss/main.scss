@@ -1,3 +1,5 @@
+@import './variables/extend';
+@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -60,9 +62,9 @@
         margin: 70px;
         padding: 20px;
         text-align: justify;
-        font-size: 15px;
         align-content: center;
         flex-direction: column;
+        @include textoNosotras (15px);
     }
 
 
@@ -81,10 +83,10 @@
         margin: 70px;
         padding: 20px;
         text-align: justify;
-        font-size: 15px;
         align-content: center;
         flex-direction: column;
-    }
+        @include textoNosotras (18px)
+     }
 }
 
 .animate__fadeOut {
@@ -101,6 +103,7 @@
 .marketingOlfativo {
     margin: 15px;
     padding: 10px;
+    @extend %marketingOlfativo;
 }
 
 .formulario {
@@ -120,8 +123,6 @@
         align-items: center;
     }
 }
-
-
 .footer {
     background-color: bisque;
     margin: 0;
@@ -158,6 +159,9 @@
         transform: scale(1.5);
     }
 }
+
+
+
 
 
 @media (min-width: 418px){

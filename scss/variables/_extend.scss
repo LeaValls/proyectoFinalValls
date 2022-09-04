@@ -1,0 +1,8 @@
+%marketingOlfativo{
+    font-family: 'Manjari', sans-serif;
+    font-style: bold;
+}
+@mixin textoNosotras ($size,){
+    font-size: $size;
+    font-family: 'Manjari', sans-serif;
+}

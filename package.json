@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeaValls/proyectoFinalValls.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeaValls/proyectoFinalValls/issues"
+  },
+  "homepage": "https://github.com/LeaValls/proyectoFinalValls#readme",
   "description": ""
 }
