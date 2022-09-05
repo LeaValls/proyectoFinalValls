@@ -13,3 +13,5 @@ description:
 -contacto: nos podes encontrar en villa urquiza o en belgrano, tambien contactanos por nuestra pagina o redes sociales.
 
 se agrego H1 en cada una de las secciones indicando que seccion es. y un h1 en el inicio oculto en el carrusel.
+
+se subieron las imagenes a Cloudinary para que el proyecto pese mucho menos.
