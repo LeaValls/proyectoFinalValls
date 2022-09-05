@@ -2,4 +2,14 @@ Keywords:
  - index: Maria Paca, El Atelier de Maria Paca, deco, tes, ceramica, velas, infusores, difusores, tazas.
  - productos: Maria Paca, El Atelier de Maria Paca, india masala, tisanas, ayurveda, te verde.
  - nosotras: Maria Paca, El Atelier de Maria Paca, josefina, silvia, atelier.
- - sylvie gabaz: 
+ - sylvie gabaz: Maria Paca, El Atelier de Maria Paca, marketing olfativo, aromas.
+ -contacto: contacto, mensaje, mapa, urquiza, belgrano.
+
+description:
+-index: todos los productos en el atelier de maria paca se basa en la sustentabilidad, la calidad y son realizados a mano.
+-productos: nos dedicamos a la venta de diferentes tes, tazas, infusores y difusores.
+-nosotras: un emprendimiento de madre e hija que surge de la union de Maria Paca y Sylvie Gabaz.
+-sylvie gabaz: especialistas en marketing olfativo.
+-contacto: nos podes encontrar en villa urquiza o en belgrano, tambien contactanos por nuestra pagina o redes sociales.
+
+se agrego H1 en cada una de las secciones indicando que seccion es. y un h1 en el inicio oculto en el carrusel.
