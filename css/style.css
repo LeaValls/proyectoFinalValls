@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manjari&display=swap");
 .marketingOlfativo {
-  font-family: 'Manjari', sans-serif;
+  font-family: "Manjari", sans-serif;
   font-style: bold; }
 
 .navbar {
@@ -21,7 +21,7 @@
   margin: 10px;
   align-items: center;
   border: 10px;
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: "Manjari", sans-serif; }
 
 .row {
   justify-content: space-evenly;
@@ -31,7 +31,8 @@
   align-items: center; }
   .row .card {
     margin-top: 20px;
-    align-items: center; }
+    align-items: center;
+    font-family: "Manjari", sans-serif; }
   .row .card-body {
     height: 250px; }
   .row .card-img-top {
@@ -56,7 +57,8 @@
     align-content: center;
     flex-direction: column;
     font-size: 15px;
-    font-family: 'Manjari', sans-serif; }
+    font-family: "Manjari", sans-serif;
+    font-weight: lighter; }
 
 .nosotrasDos {
   margin: 20px;
@@ -73,7 +75,8 @@
     align-content: center;
     flex-direction: column;
     font-size: 18px;
-    font-family: 'Manjari', sans-serif; }
+    font-family: "Manjari", sans-serif;
+    font-weight: normal; }
 
 .animate__fadeOut {
   color: gray;
@@ -83,7 +86,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  animation-iteration-count: infinite; }
+  animation-iteration-count: infinite;
+  font-family: "Manjari", sans-serif; }
 
 .marketingOlfativo {
   margin: 15px;

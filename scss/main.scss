@@ -1,5 +1,7 @@
+@import './variables/typo';
 @import './variables/extend';
-@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -18,7 +20,7 @@
     margin: 10px;
     align-items: center;
     border: 10px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:$Manjari;
 
 }
 
@@ -32,6 +34,7 @@
     .card {
         margin-top: 20px;
         align-items: center;
+        font-family: $Manjari;
     }
 
     .card-body {
@@ -64,7 +67,7 @@
         text-align: justify;
         align-content: center;
         flex-direction: column;
-        @include textoNosotras (15px);
+        @include estiloTexto (15px, lighter);
     }
 
 
@@ -85,7 +88,7 @@
         text-align: justify;
         align-content: center;
         flex-direction: column;
-        @include textoNosotras (18px)
+        @include estiloTexto (18px, normal);
      }
 }
 
@@ -98,7 +101,7 @@
     flex-wrap: wrap;
     justify-content: center;
     animation-iteration-count: infinite;
-
+    font-family: $Manjari;
 }
 
 .marketingOlfativo {
