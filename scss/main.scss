@@ -6,21 +6,23 @@
     display: flex;
     justify-content: space-between;
 }
-.anchocarrusel{
+
+.anchocarrusel {
     width: 100vw;
     height: 80vw;
     margin: 10px;
     padding: 15px;
 }
-.sustentable{
+
+.sustentable {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-direction: row;
     padding: 40px;
     margin: 10px;
     align-items: center;
     border: 10px;
-    font-family:$Manjari;
+    font-family: $Manjari;
 
 }
 
@@ -89,7 +91,7 @@
         align-content: center;
         flex-direction: column;
         @include estiloTexto (18px, normal);
-     }
+    }
 }
 
 .animate__fadeOut {
@@ -127,6 +129,7 @@
         align-items: center;
     }
 }
+
 .footer {
     background-color: bisque;
     margin: 0;
@@ -168,67 +171,116 @@
 
 
 
-@media (min-width: 418px){
-    .joseYsilvia1{
+@media (min-width: 418px) {
+    .joseYsilvia1 {
         height: auto;
         width: auto;
     }
-    .joseYsilvia2{
+
+    .joseYsilvia2 {
         height: auto;
         width: auto;
     }
-    .nosotras{
+
+    .nosotras {
         padding: 0;
         margin: 0;
     }
-    .sustentable{
+
+    .sustentable {
         flex-direction: column;
         font-size: 15px;
     }
-    .mapas{
+
+    .mapas {
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+    }
+
+    .textoNosotras {
+        text-align: center;
+    }
+
+    .textoNosotrasDos {
+        text-align: center;
     }
 
 }
-@media (max-width: 768px){
-    .mapas{
+
+@media (max-width: 768px) {
+    .mapas {
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
     }
-    .nosotras{
+
+    .nosotras {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-        
+
     }
-    .nosotrasDos{
+
+    .nosotrasDos {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-    .textoNosotras{
+
+    .textoNosotras {
         text-align: center;
     }
-   
+
+    .textoNosotrasDos {
+        text-align: center;
+    }
+
 }
-@media (min-width: 540px){
-    .nosotras{
+
+@media (min-width: 540px) {
+    .nosotras {
         padding: 15px;
         margin: 20px;
     }
-    .mapas{
+
+    .mapas {
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+    }
+
+    .textoNosotras {
+        text-align: center;
+    }
+
+    .textoNosotrasDos {
+        text-align: center;
+    }
+
+    .joseYsilvia1 {
+        height: auto;
+        width: auto;
+    }
+
+    .joseYsilvia2 {
+        height: auto;
+        width: auto;
     }
 
 }
 
-@media (min-width: 1024px){
-    .sustentable{
+@media (min-width: 1024px) {
+    .sustentable {
         flex-direction: row;
     }
 
