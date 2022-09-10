@@ -146,10 +146,10 @@
     font-size: 15px; }
   .mapas {
     display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: space-around;
     align-items: center;
-    align-content: center; }
+    flex-direction: column; }
   .textoNosotras {
     text-align: center; }
   .textoNosotrasDos {
@@ -158,10 +158,10 @@
 @media (max-width: 768px) {
   .mapas {
     display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: space-around;
     align-items: center;
-    align-content: center; }
+    flex-direction: column; }
   .nosotras {
     display: flex;
     flex-wrap: wrap;
@@ -184,10 +184,10 @@
     margin: 20px; }
   .mapas {
     display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: space-around;
     align-items: center;
-    align-content: center; }
+    flex-direction: column; }
   .textoNosotras {
     text-align: center; }
   .textoNosotrasDos {
@@ -202,3 +202,10 @@
 @media (min-width: 1024px) {
   .sustentable {
     flex-direction: row; } }
+
+.mapas {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column; }

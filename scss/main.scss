@@ -127,6 +127,7 @@
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
+               
     }
 }
 
@@ -194,10 +195,11 @@
 
     .mapas {
         display: flex;
-        flex-direction: column;
         flex-wrap: nowrap;
+        justify-content: space-around;
         align-items: center;
-        align-content: center;
+        flex-direction: column;
+
     }
 
     .textoNosotras {
@@ -213,75 +215,83 @@
 @media (max-width: 768px) {
     .mapas {
         display: flex;
-        flex-direction: column;
         flex-wrap: nowrap;
+        justify-content: space-around;
         align-items: center;
-        align-content: center;
-    }
-
-    .nosotras {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-
-    }
-
-    .nosotrasDos {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .textoNosotras {
-        text-align: center;
-    }
-
-    .textoNosotrasDos {
-        text-align: center;
-    }
-
-}
-
-@media (min-width: 540px) {
-    .nosotras {
-        padding: 15px;
-        margin: 20px;
-    }
-
-    .mapas {
-        display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        align-content: center;
     }
 
-    .textoNosotras {
-        text-align: center;
+        .nosotras {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+
+        }
+
+        .nosotrasDos {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .textoNosotras {
+            text-align: center;
+        }
+
+        .textoNosotrasDos {
+            text-align: center;
+        }
+
     }
 
-    .textoNosotrasDos {
-        text-align: center;
-    }
+    @media (min-width: 540px) {
+        .nosotras {
+            padding: 15px;
+            margin: 20px;
+        }
 
-    .joseYsilvia1 {
-        height: auto;
-        width: auto;
-    }
+        .mapas {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
 
-    .joseYsilvia2 {
-        height: auto;
-        width: auto;
-    }
+            .textoNosotras {
+                text-align: center;
+            }
 
-}
+            .textoNosotrasDos {
+                text-align:center;
+            }
 
-@media (min-width: 1024px) {
-    .sustentable {
-        flex-direction: row;
-    }
+            .joseYsilvia1 {
+                height: auto;
+                width: auto;
+            }
 
-}
+            .joseYsilvia2 {
+                height: auto;
+                width: auto;
+            }
+
+        }
+
+        @media (min-width: 1024px) {
+            .sustentable {
+                flex-direction: row;
+            }
+
+        }
+
+        .mapas {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
