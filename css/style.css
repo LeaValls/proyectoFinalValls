@@ -142,11 +142,13 @@
     padding: 0;
     margin: 0; }
   .sustentable {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     font-size: 15px; }
   .mapas {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     flex-direction: column; }
@@ -158,7 +160,7 @@
 @media (max-width: 768px) {
   .mapas {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     flex-direction: column; }
@@ -184,7 +186,7 @@
     margin: 20px; }
   .mapas {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     flex-direction: column; }
@@ -197,15 +199,38 @@
     width: auto; }
   .joseYsilvia2 {
     height: auto;
-    width: auto; } }
+    width: auto; }
+  .sustentable {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 15px; } }
 
 @media (min-width: 1024px) {
   .sustentable {
-    flex-direction: row; } }
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; } }
 
 .mapas {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   flex-direction: column; }
+
+@media (max-width: 375px) {
+  .sustentable {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px;
+    margin: 10px;
+    align-items: center;
+    border: 10px;
+    font-family: "Manjari", sans-serif;
+    flex-wrap: wrap; } }

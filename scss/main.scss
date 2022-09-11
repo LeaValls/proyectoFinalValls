@@ -127,7 +127,7 @@
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
-               
+
     }
 }
 
@@ -189,13 +189,15 @@
     }
 
     .sustentable {
+        display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         font-size: 15px;
     }
 
     .mapas {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
@@ -215,83 +217,110 @@
 @media (max-width: 768px) {
     .mapas {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
     }
 
-        .nosotras {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            align-items: center;
-
-        }
-
-        .nosotrasDos {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .textoNosotras {
-            text-align: center;
-        }
-
-        .textoNosotrasDos {
-            text-align: center;
-        }
+    .nosotras {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
 
     }
 
-    @media (min-width: 540px) {
-        .nosotras {
-            padding: 15px;
-            margin: 20px;
-        }
+    .nosotrasDos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 
-        .mapas {
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: space-around;
-            align-items: center;
-            flex-direction: column;
-        }
+    .textoNosotras {
+        text-align: center;
+    }
 
-            .textoNosotras {
-                text-align: center;
-            }
+    .textoNosotrasDos {
+        text-align: center;
+    }
 
-            .textoNosotrasDos {
-                text-align:center;
-            }
+}
 
-            .joseYsilvia1 {
-                height: auto;
-                width: auto;
-            }
+@media (min-width: 540px) {
+    .nosotras {
+        padding: 15px;
+        margin: 20px;
+    }
 
-            .joseYsilvia2 {
-                height: auto;
-                width: auto;
-            }
+    .mapas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
 
-        }
+    .textoNosotras {
+        text-align: center;
+    }
 
-        @media (min-width: 1024px) {
-            .sustentable {
-                flex-direction: row;
-            }
+    .textoNosotrasDos {
+        text-align: center;
+    }
 
-        }
+    .joseYsilvia1 {
+        height: auto;
+        width: auto;
+    }
 
-        .mapas {
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: space-around;
-            align-items: center;
-            flex-direction: column;
-        }
+    .joseYsilvia2 {
+        height: auto;
+        width: auto;
+    }
+
+    .sustentable {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .sustentable {
+        display: flex;
+        flex-flow: column wrap;
+        font-size: 15px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+.mapas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 375px) {
+    .sustentable {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 40px;
+        margin: 10px;
+        align-items: center;
+        border: 10px;
+        font-family: "Manjari", sans-serif;
+        flex-wrap: wrap;
+    }
+}
