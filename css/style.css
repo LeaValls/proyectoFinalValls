@@ -148,10 +148,16 @@
     font-size: 15px; }
   .mapas {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: column; }
+    align-items: center; }
+    .mapas .mapaUrquiza {
+      height: auto;
+      width: auto; }
+      .mapas .mapaUrquizamapaBelgrano {
+        height: auto;
+        width: auto; }
   .textoNosotras {
     text-align: center; }
   .textoNosotrasDos {
@@ -160,10 +166,16 @@
 @media (max-width: 768px) {
   .mapas {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: column; }
+    align-items: center; }
+    .mapas .mapaUrquiza {
+      height: auto;
+      width: auto; }
+      .mapas .mapaUrquizamapaBelgrano {
+        height: auto;
+        width: auto; }
   .nosotras {
     display: flex;
     flex-wrap: wrap;
@@ -186,10 +198,16 @@
     margin: 20px; }
   .mapas {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: column; }
+    align-items: center; }
+    .mapas .mapaUrquiza {
+      height: auto;
+      width: auto; }
+      .mapas .mapaUrquizamapaBelgrano {
+        height: auto;
+        width: auto; }
   .textoNosotras {
     text-align: center; }
   .textoNosotrasDos {
