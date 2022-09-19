@@ -107,10 +107,42 @@
 }
 
 .marketingOlfativo {
+    @extend %marketingOlfativo;
     margin: 15px;
     padding: 10px;
-    @extend %marketingOlfativo;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
 }
+
+.etapas {
+    margin: 35px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 12px
+    
+}
+.asesoria{
+    padding-right: 20px;
+    text-align: justify;
+}
+.investigacion{
+        padding-right: 20px;
+        text-align: justify;
+}
+.creacion{
+            padding-right: 20px;
+            text-align: justify;
+        }
+.creacion{
+    text-align: justify;
+}
+
+
 
 .formulario {
     margin: 10px;
@@ -124,7 +156,7 @@
     .mapas {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
 
@@ -174,13 +206,13 @@
 
 @media (min-width: 418px) {
     .joseYsilvia1 {
-        height: auto;
-        width: auto;
+        height: 40%;
+        width: 40%;
     }
 
     .joseYsilvia2 {
-        height: auto;
-        width: auto;
+        height: 40%;
+        width: 40%;
     }
 
     .nosotras {
@@ -188,40 +220,57 @@
         margin: 0;
     }
 
-    .sustentable {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        font-size: 15px;
-    }
-
-    .mapas {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        
-        .mapaUrquiza{
-            height: auto;
-            width: auto;
-            &mapaBelgrano{
-                height: auto;
-                width: auto;
-            }
-        }
-
-    }
-
     .textoNosotras {
-        text-align: center;
+        text-align: none;
+
     }
 
     .textoNosotrasDos {
         text-align: center;
+        align-items: center;
     }
 
 }
+
+.sustentable {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.mapas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    .mapaUrquiza {
+        height: 50%;
+        width: 50%;
+
+        &mapaBelgrano {
+            height: auto;
+            width: auto;
+        }
+    }
+
+}
+
+.marketingOlfativo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.etapas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
 
 @media (max-width: 768px) {
     .mapas {
@@ -230,11 +279,12 @@
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        
-        .mapaUrquiza{
+
+        .mapaUrquiza {
             height: auto;
             width: auto;
-            &mapaBelgrano{
+
+            &mapaBelgrano {
                 height: auto;
                 width: auto;
             }
@@ -266,6 +316,17 @@
     }
 
 }
+.marketingOlfativo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.etapas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 
 @media (min-width: 540px) {
     .nosotras {
@@ -279,11 +340,12 @@
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        
-        .mapaUrquiza{
+
+        .mapaUrquiza {
             height: auto;
             width: auto;
-            &mapaBelgrano{
+
+            &mapaBelgrano {
                 height: auto;
                 width: auto;
             }
@@ -316,6 +378,17 @@
     }
 
 }
+.marketingOlfativo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.etapas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 
 @media (min-width: 1024px) {
     .sustentable {
@@ -328,6 +401,12 @@
         align-items: center;
     }
 
+}
+
+.etapas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap
 }
 
 .mapas {

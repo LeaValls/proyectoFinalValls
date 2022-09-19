@@ -91,7 +91,34 @@
 
 .marketingOlfativo {
   margin: 15px;
-  padding: 10px; }
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center; }
+
+.etapas {
+  margin: 35px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 12px; }
+
+.asesoria {
+  padding-right: 20px;
+  text-align: justify; }
+
+.investigacion {
+  padding-right: 20px;
+  text-align: justify; }
+
+.creacion {
+  padding-right: 20px;
+  text-align: justify; }
+
+.creacion {
+  text-align: justify; }
 
 .formulario {
   margin: 10px;
@@ -102,7 +129,7 @@
   .formulario .mapas {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center; }
 
@@ -133,35 +160,48 @@
 
 @media (min-width: 418px) {
   .joseYsilvia1 {
-    height: auto;
-    width: auto; }
+    height: 40%;
+    width: 40%; }
   .joseYsilvia2 {
-    height: auto;
-    width: auto; }
+    height: 40%;
+    width: 40%; }
   .nosotras {
     padding: 0;
     margin: 0; }
-  .sustentable {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    font-size: 15px; }
-  .mapas {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center; }
-    .mapas .mapaUrquiza {
+  .textoNosotras {
+    text-align: none; }
+  .textoNosotrasDos {
+    text-align: center;
+    align-items: center; } }
+
+.sustentable {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 15px; }
+
+.mapas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+  .mapas .mapaUrquiza {
+    height: 50%;
+    width: 50%; }
+    .mapas .mapaUrquizamapaBelgrano {
       height: auto;
       width: auto; }
-      .mapas .mapaUrquizamapaBelgrano {
-        height: auto;
-        width: auto; }
-  .textoNosotras {
-    text-align: center; }
-  .textoNosotrasDos {
-    text-align: center; } }
+
+.marketingOlfativo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.etapas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
 
 @media (max-width: 768px) {
   .mapas {
@@ -191,6 +231,16 @@
     text-align: center; }
   .textoNosotrasDos {
     text-align: center; } }
+
+.marketingOlfativo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.etapas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
 
 @media (min-width: 540px) {
   .nosotras {
@@ -224,6 +274,16 @@
     flex-direction: column;
     font-size: 15px; } }
 
+.marketingOlfativo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.etapas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
 @media (min-width: 1024px) {
   .sustentable {
     display: flex;
@@ -233,6 +293,11 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center; } }
+
+.etapas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
 
 .mapas {
   display: flex;
