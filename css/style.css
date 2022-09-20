@@ -132,6 +132,8 @@
     background-color: black;
     color: white; }
   .formulario .mapas {
+    margin: 25px;
+    padding: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
