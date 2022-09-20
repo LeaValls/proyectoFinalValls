@@ -201,6 +201,10 @@
     .mapaUrquizamapaBelgrano {
       height: auto;
       width: auto; }
+  .etapas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
   .marketingOlfativo {
     margin: 30px; }
   .tituloEtapa {
@@ -208,11 +212,7 @@
     flex-direction: row;
     justify-content: center;
     font-family: "Manjari", sans-serif;
-    font-size: 12px; }
-  .etapas {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; } }
+    font-size: 12px; } }
 
 @media (max-width: 768px) {
   .mapas {
@@ -288,12 +288,11 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    font-size: 15px; } }
-
-.etapas {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; }
+    font-size: 15px; }
+  .etapas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; } }
 
 @media (max-width: 375px) {
   .sustentable {

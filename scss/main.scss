@@ -269,7 +269,11 @@
             width: auto;
         }
     }
-
+    .etapas {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .marketingOlfativo {
         margin: 30px;
     }
@@ -283,11 +287,7 @@
         
     }
 
-    .etapas {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+    
 
 }
 
@@ -409,12 +409,13 @@
         font-size: 15px;
     }
 
-}
+
 
 .etapas {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
 }
 
 @media (max-width: 375px) {
