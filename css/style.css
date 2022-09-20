@@ -304,7 +304,13 @@
     align-items: center;
     border: 10px;
     font-family: "Manjari", sans-serif;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .tituloEtapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Manjari", sans-serif;
+    font-size: 12px; } }
 
 @media (min-width: 1024px) {
   .sustentable {

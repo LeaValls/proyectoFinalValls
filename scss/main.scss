@@ -409,8 +409,6 @@
         font-size: 15px;
     }
 
-
-
 .etapas {
     display: flex;
     flex-direction: column;
@@ -429,6 +427,14 @@
         border: 10px;
         font-family: "Manjari", sans-serif;
         flex-wrap: wrap;
+    }
+    .tituloEtapa {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: $Manjari;
+        font-size: 12px;
+        
     }
 }
 
