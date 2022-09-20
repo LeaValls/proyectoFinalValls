@@ -98,11 +98,12 @@
   align-items: center; }
 
 .etapas {
+  font-family: "Manjari", sans-serif;
   margin: 35px;
   padding: 10px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   font-size: 12px; }
 
 .asesoria {

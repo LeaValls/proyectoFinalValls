@@ -114,16 +114,19 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-
+    
 }
 
 .etapas {
+    font-family: $Manjari;
     margin: 35px;
     padding: 10px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     font-size: 12px
+    
+    
 }
 
 .asesoria {
@@ -259,11 +262,14 @@
     }
 
 }
+
 .etapas{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
+
 
 
 
