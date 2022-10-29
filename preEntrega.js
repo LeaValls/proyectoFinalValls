@@ -1,16 +1,22 @@
 do {
+    
+    function saludar(){
+        alert("Hola" + " " + nombre);
+    }
+    
     let nombre = prompt("Contanos como te llamas")
     if (nombre == "") {
         alert("Ese no es un nombre, contanos como te llamas")
     } else {
-        alert("Hola" + " " + nombre)
+        saludar();
     }
+       
     let contacto = prompt("Dejanos tu correo")
     alert("Vamos a jugar!")
     let ruleta = parseInt(prompt("Indica un numero del 1 al 10 para ver que premio tenes"))
     while (isNaN (ruleta))
     ruleta = parseInt(prompt("Indica un numero del 1 al 10 para ver que premio tenes"))
-    
+
     if (ruleta > 10 || ruleta < 1) {
         alert("Lastima! te perdiste el regalito por no ingresar un numero correcto")    
     }
